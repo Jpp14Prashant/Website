@@ -1,0 +1,108 @@
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0px;
+    background-color: #181717;
+    color: #EFE7E6;
+    line-height: 1.6;
+}
+
+a{
+    text-decoration: none;
+    color: #8A8382;
+}
+
+#main1{
+    margin: 0px;
+    padding: 0px;
+    background-image: url("./123.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow-y: hidden;
+}
+
+#main1 .para{
+    margin-top: 25vh;
+}
+
+#main1 h1{
+    font-size: 4rem;
+    margin-bottom: 0;
+}
+
+#main1 h2{
+    font-size: 2rem;
+}
+
+
+nav{
+    height: 40px;
+    width: 100%;
+    background-color: #0E3E0E;
+    color: #8A8382;
+    position: fixed;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+
+nav li{
+    display: inline;
+    float: left;
+}
+
+nav a{
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px 0;
+    color: #EFE7E6;
+}
+
+nav li:hover{
+    background-color: #184a18;
+    height: 41px;
+}
+
+.para{
+    max-width: 1180px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 3rem;
+}
+
+.mypar{
+    font-size: 1.2rem;
+}
+
+footer .foot{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(4,1fr);
+    padding: 2rem;
+    text-align: left;
+    font-size: 15px;
+} 
+
+footer .foot ul{
+    list-style: none;
+}
+
+footer .foot ul li:first-child{
+    font-size: 1.2rem;
+    padding-bottom: 0.5rem;
+    border-bottom: #8A8382 solid 0.5px;
+    margin-bottom: 1.5rem;
+}
+
+footer .cpy-footer{
+    background-color: #184a18;
+    padding: 1rem;
+    text-align: center;
+}
